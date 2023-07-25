@@ -1,0 +1,184 @@
+.container{
+  width: 99%;
+ 
+  display: flex;
+  gap: 30px;
+  padding-left: 10px;
+  
+}
+.left{
+  width: 20%;
+
+}
+.pannel{
+  width: 80%;
+  margin: auto;
+
+}
+.first{
+  background-color:  rgb(24,119,242);
+  color: white;
+}
+.pannel>div{
+  width: 100%;
+  align-items: center;
+display: flex;
+  justify-content: space-between;
+border-bottom:1px solid rgb(75, 73, 73);
+}
+.right{
+  width: 23%;
+
+}
+.right>div{
+  height: 35%;
+}
+.mid{
+width: 75%;
+
+}
+.profile{
+  margin: auto;
+  width: 90%;
+  height: 200px;
+  background-color: rgb(24,119,242);
+}
+.circle{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: -90px;
+  background-color: bisque;
+}
+.day{
+  padding: 10px;
+margin-left: 600px;
+}
+.user{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(5,1fr);
+ 
+}
+.user>div{
+  width: 80%;
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  height: 150px;
+  line-height: 10px;
+  padding: 15px;
+
+}
+.scircle{
+  width: 70px;
+  height: 70px;
+ 
+  border-radius: 50%;
+}
+.map{
+  width: 100%;
+  height: 500px;
+
+}
+
+.progressb {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.progress {
+  background-color: #3498db;
+  color: #fff;
+  font-weight: bold;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  transition: width 0.5s;
+}
+.card{
+  width: 100%;
+display: flex;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  height: 90px;
+  justify-content: space-between;
+
+}
+.card>div{
+
+ 
+
+  height: 100%;
+}
+.income{
+  width: 30%;
+}
+.img{
+  width: 80px;
+  height: 100%;
+  border: 1px solid black;
+}
+.imagew{
+  width: 69%;
+}
+
+@media only screen and (max-width: 1067px) and (min-width: 451px){
+.right{
+  display: none;
+}
+.user{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3,1fr);
+}
+.left{
+  width: 40%;
+}
+.mid{
+  width: 60%;
+}
+.day{
+  padding: 10px;
+margin-left: 100px;
+}
+}
+
+
+@media only screen and (max-width: 450px) and (min-width: 100px){
+  .user{
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(3,1fr);
+  }
+.container{
+  display: block;
+}
+.container>div{
+  width: 100%;
+}
+.day{
+  padding: 10px;
+margin-left: 10px;
+}
+}
+
+@media only screen and (max-width: 400px) and (min-width: 300px){
+  .user{
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(3,1fr);
+  }
+}
+@media only screen and (max-width: 299px) and (min-width: 200px){
+  .user{
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(2,1fr);
+  }
+}

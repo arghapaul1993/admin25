@@ -1,0 +1,137 @@
+.rechargeConatanier{
+margin-left: 10px;
+}
+
+.topRechargeDivFlex{
+    display: flex;
+    justify-content: space-between;
+    width: 79vw;
+    background-color: rgb(125, 125, 236);
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+
+.rechageFormPopUp{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.rechargeAghoriPopConatiner {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    text-align: left;
+  }
+
+
+
+
+
+form >div >select{
+    width: 100%;
+    font-size: 19px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#RechargeHeader{
+    background-color: #1DA1F2;
+    color: white;
+    padding: 5px;
+}
+
+form >div >input{
+    width: 100%;
+    font-size: 22px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 20px;
+
+}
+#decisionRecharge{
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 22px;
+    margin-bottom: 2px;
+}
+
+#rechareSelect{
+    width: 100%;
+    font-size: 19px;
+    margin-top: 8px;
+    margin-bottom: 8px;  
+}
+
+.salBtn{
+    display: flex;
+    justify-content: space-between;
+    margin: 1px;
+    margin-top: 10px;
+
+    
+}
+
+.rechargeBtn {
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 16px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+.lowerSecondDiv{
+    display: flex;
+    justify-content: space-around;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.salaryHeadingg{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #e9e6e6;
+}
+
+.SalaryList1{
+    display: flex;
+    justify-content:center;
+    font-size: 18px;
+    width: 1000px;
+    display: flex;
+}
+
+.SalaryList1 p{
+    display: flex;
+    justify-content:center;
+    
+}

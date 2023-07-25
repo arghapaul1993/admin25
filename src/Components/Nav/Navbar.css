@@ -1,0 +1,25 @@
+.navbarContainer{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: auto;
+    font-size: 20px;
+    height: 80px;
+    align-items: center;
+}
+
+.profilePicc{
+    border-radius: 50%;
+}
+
+#seachh input{
+    margin-top: 4px;
+    height: 30px;
+    font-size: 19px;
+}
+.profile_photo{
+    font-display: flex;
+    align-items: center;
+    
+}

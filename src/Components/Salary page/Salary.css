@@ -1,0 +1,152 @@
+.salaryContanier{
+    margin-left: 10px;
+    padding-left: 10px;
+
+} 
+
+.salaryDivtop{
+display: flex;
+justify-content: space-around;
+width: 75vw;
+
+}
+
+.salaryDivinner1{
+    display: flex;
+    justify-content: space-around;
+    width: 70vw;
+
+
+}
+
+.lowerFirstDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    background-color: rgba(134, 134, 208, 0.752);
+    padding: 10px;
+}
+
+
+.lowerSecondDiv{
+    display: flex;
+    justify-content: space-around;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.salaryHeadingg{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #e9e6e6;
+}
+
+.SalaryList{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.SalaryList p{
+    display: flex;
+    justify-content: center;
+}
+
+
+#selectPaymeny{
+    width: 60px;
+    font-size: 19px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#selectSalary{
+    width: 100%;
+    font-size: 19px;
+    margin-top: 8px;
+    margin-bottom: 8px;  
+}
+
+#selectPaymenyy{
+    width: auto;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 8px;  
+    font-size: 19px;
+
+}
+
+
+.labalDiv  >input{
+    width: 100%;
+    font-size: 19px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 20px;
+
+}
+
+
+.salBtn{
+    display: flex;
+    justify-content: space-around;
+}
+
+#saalryHaed{
+    background-color: #1DA1F2;
+    color: white;
+    padding: 10px;
+}
+
+#myBtnsal{
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#myBtnsal2{
+
+    background-color: 'rgb(255, 87, 34)';
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.salFormPopUp{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.salAghoriPopConatiner {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: left;
+
+  }

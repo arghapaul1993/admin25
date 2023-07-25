@@ -1,0 +1,12 @@
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 400px;
+    gap: 20px;
+    border: 1px solid red;
+}
+.container>div{
+    width: 24%;
+    border: 1px solid blue;
+}

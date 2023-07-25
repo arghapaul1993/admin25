@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.sidePanalConatiner{
+height: 1000px;
+width: 340px;
+text-align: center;
+margin-left: 18px;
+margin-right: 10px;
+overflow-y: scroll;
+}
+
+.sidebar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    width: 320px;
+    height: 75px;
+    background-color: white;
+    color: rgb(15, 128, 250);
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid black;
+    gap: 100px;
+  }
+  
+  
+
+  .sidebar .selected {
+    color: rgb(221, 232, 223); /* Change to your desired color */
+    font-weight: bold;
+    background-color: rgb(15, 128, 250);
+  }
+  
+  .sidebar .selected i {
+    color: white; /* Change to your desired color */
+  }
+
+  .sidebar .selected image {
+    color: white; /* Change to your desired color */
+  }
+ 
+
+
+
+
+.profileSIDE{
+    height: 400px;
+}
+.profileSideDiv1{
+    background-color: rgb(15, 128, 250);
+    height: 150px;
+}
+.profileSideDiv2{
+    height: 300px;
+    position: relative;
+    bottom: 80px;
+
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#aghoriText{
+position: relative;
+bottom: 35px;
+}
+
+#masterPanalText{
+    position: relative;
+    bottom: 65px;
+}
+
+
+
+.sideProPic{
+height: 150px;
+width: 150px;
+border-radius: 50%;
+}
+
+.sidePanalItems{
+display: flex;
+justify-content: space-around;
+margin-top: 5px;
+}
+

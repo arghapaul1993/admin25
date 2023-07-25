@@ -1,0 +1,238 @@
+.custom-option {
+  font-size: 10px;
+  
+  padding: 20px;
+}
+
+
+
+ 
+.divFirstformh{
+
+  margin: 0px 10px;
+  padding: 15px;
+  font-size: 18px;
+ 
+}
+.divFirstformh label{
+ 
+  color: rgb(65, 62, 62);
+  font-size: 15px;
+}
+.titleg{
+text-align: center;
+   background-color: #1DA1F2;
+      padding: 7px;    
+      color:white;  
+
+}
+
+.divFirstformh select{
+  width: 100%;
+  margin-top: 5px;
+
+}
+
+.divFirstformh input{
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.divFirstformh button{
+  margin-top: 10px;
+}
+
+
+.twoBtnd{
+  display: flex;
+ gap: 30px;
+ margin: auto;
+
+ margin-left: 120px;
+}
+
+
+
+.giftNavFlax{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-weight: bolder;
+  /* width:100%; */
+  
+
+}
+.borderd {
+border-top: 8px solid rgb(244, 241, 241);
+border-bottom: 8px solid rgb(244, 241, 241);
+border-left: 8px solid rgb(244, 241, 241);
+border-right-width: 0; /* Set border-right width to 0 to remove it */
+}
+
+.column {
+text-align: center;
+overflow: none;
+display: inline-block;
+width: 40px; /* Adjust the width to your preference */
+margin: 10px; /* Add margin between columns if desired */
+}
+.columnComn {
+text-align: center;
+display: inline-block;
+width: 114px; /* Adjust the width to your preference */
+margin: 10px; /* Add margin between columns if desired */
+white-space: normal; /* Allow text to wrap within the columns */
+word-wrap: break-word; /* Break long words to fit within the columns */
+}
+.columnComn {
+display: inline-block;
+position: relative;
+}
+
+.actionButton {
+padding: 8px;
+background-color: #f2f2f2;
+border: none;
+cursor: pointer;
+}
+
+.dropdownIcon {
+display: inline-block;
+width: 10px;
+height: 10px;
+border-right: 4px solid transparent;
+border-left: 4px solid transparent;
+margin-left: 5px;
+}
+
+.dropdownContent {
+/* padding: 5px; */
+position: absolute;
+top: 60%;
+left: 0;
+display: none;
+min-width: 50px;
+padding: 8px;
+background-color: #b3acac;
+border: 1px  solid #ddd;
+z-index: 1;
+font-weight: 600;
+
+border-radius: 5px;
+}
+
+.dropdownContent a {
+display: block;
+padding: 2px 2px;
+text-decoration: none;
+color: #333;
+}
+
+.dropdownContent a:hover {
+background-color: #ffff;
+
+}
+.actionButton {
+padding: 10px;
+background-color: #f2f2f2;
+border: none;
+width: 100%;
+cursor: pointer;
+}
+.columnComn:hover .dropdownContent {
+display: block;
+}
+
+.columnS {
+text-align: center;
+display: inline-block;
+width: 270px; /* Adjust the width to your preference */
+margin: 10px; /* Add margin between columns if desired */
+white-space: normal; /* Allow text to wrap within the columns */
+word-wrap: break-word; /* Break long words to fit within the columns */
+}
+
+.columnT {
+
+text-align: center;
+overflow: none;
+display: inline-block;
+width: 120px; /* Adjust the width to your preference */
+margin: 10px; /* Add margin between columns if desired */
+}
+
+
+.addGift {
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.addLiveGift {
+  background-color: #ec27ec;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.myGiftDivd{
+  display: flex;
+  gap: 50px;
+  /* max-width: 1000px; */
+  /* justify-content: space-around; */
+}
+.myGiftDiv .titl{
+  width:35px
+}
+.cold{
+
+margin-left: -500px;
+}
+
+.lowerDivTabled{
+  display: flex;
+  /* justify-content: space-around; */
+  font-size: 21px;
+  font-weight: 400;
+ gap: 50px;
+}
+.lowerDivTabled p{
+font-weight: bold;
+color: rgb(78, 76, 76);
+font-size: 15px;
+}
+
+.pageWrapper {
+  position: relative;
+}
+
+.blurBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  z-index: 9998;
+}
+
+.blurFormd {
+  position: fixed;
+  top: 32%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  overflow: hidden;
+  width: 30%;
+  background: white;
+}

@@ -1,0 +1,245 @@
+.custom-option {
+  font-size: 10px;
+  
+  padding: 20px;
+}
+ 
+
+
+
+.divFirstform{
+
+  margin: 0px 10px;
+  padding: 15px;
+  font-size: 18px;
+ 
+}
+.divFirstform label{
+  font-weight: bold;
+  color: rgb(65, 62, 62);
+  font-size: 10px;
+}
+.colb{
+  margin-left: -500px;
+}
+.title{
+
+      background: linear-gradient(150deg, rgb(43, 36, 170), rgb(172, 18, 183));
+      padding: 7px;    
+      color:white  
+
+}
+
+.divFirstform select{
+  width: 100%;
+  margin-top: 5px;
+
+}
+
+.divFirstform input{
+  width: 100%;
+  margin-top: 5px;
+}
+
+.divFirstform button{
+  margin-top: 10px;
+}
+
+
+.twoBtn{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.giftNavFlax{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-weight: bolder;
+  /* width:100%; */
+  
+
+}
+.border {
+border-top: 8px solid rgb(244, 241, 241);
+border-bottom: 8px solid rgb(244, 241, 241);
+border-left: 8px solid rgb(244, 241, 241);
+border-right-width: 0; /* Set border-right width to 0 to remove it */
+}
+
+.column {
+text-align: center;
+overflow: none;
+display: inline-block;
+width: 40px; /* Adjust the width to your preference */
+margin: 10px; /* Add margin between columns if desired */
+}
+.columnComn {
+text-align: center;
+display: inline-block;
+width: 114px; /* Adjust the width to your preference */
+margin: 10px; /* Add margin between columns if desired */
+white-space: normal; /* Allow text to wrap within the columns */
+word-wrap: break-word; /* Break long words to fit within the columns */
+}
+.columnComn {
+display: inline-block;
+position: relative;
+}
+
+.actionButtong {
+padding: 8px;
+background-color: #f2f2f2;
+border: none;
+cursor: pointer;
+margin-left: -140px;
+}
+
+.dropdownIcon {
+display: inline-block;
+width: 10px;
+height: 10px;
+border-right: 4px solid transparent;
+border-left: 4px solid transparent;
+margin-left: 5px;
+}
+
+.dropdownContentg {
+/* padding: 5px; */
+position: absolute;
+top: 65%;
+left: 0;
+display: none;
+min-width: 50px;
+padding: 8px;
+background-color: #b3acac;
+border: 1px  solid #ddd;
+z-index: 1;
+font-weight: 600;
+margin-left: -50px;
+border-radius: 5px;
+}
+
+.dropdownContentg a {
+display: block;
+padding: 2px 2px;
+text-decoration: none;
+color: #333;
+}
+
+.dropdownContentg a:hover {
+background-color: #ffff;
+
+}
+.actionButtong {
+padding: 10px;
+background-color: #f2f2f2;
+border: none;
+width: 100%;
+cursor: pointer;
+}
+.columnComn:hover .dropdownContentg {
+display: block;
+}
+
+.columnS {
+text-align: center;
+display: inline-block;
+width: 270px; /* Adjust the width to your preference */
+margin: 10px; /* Add margin between columns if desired */
+white-space: normal; /* Allow text to wrap within the columns */
+word-wrap: break-word; /* Break long words to fit within the columns */
+}
+
+.columnT {
+
+text-align: center;
+overflow: none;
+display: inline-block;
+width: 120px; /* Adjust the width to your preference */
+margin: 10px; /* Add margin between columns if desired */
+}
+
+
+.addGiftc {
+  background-color: #006e51;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.addLiveGift {
+  background-color: #b239b2;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.myGiftDivb{
+  display: flex;
+  gap: 150px;
+  /* max-width: 1000px; */
+  /* justify-content: space-around; */
+}
+.myGiftDivb .titl{
+  width:35px
+}
+
+.lowerDivTableb{
+  display: flex;
+  /* justify-content: space-around; */
+  font-size: 21px;
+  font-weight: 400;
+  gap: 150px;
+}
+.lowerDivTableb p{
+font-weight: bold;
+color: rgb(78, 76, 76);
+font-size: 15px;
+}
+
+.pageWrapper {
+  position: relative;
+}
+
+.blurBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  z-index: 9998;
+} 
+
+.blurForm {
+  position: fixed;
+  top: 32%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  overflow: hidden;
+  width: 60%;
+  background: white;
+}
+.cola{
+  text-align: center;
+display: inline-block;
+width: 114px; /* Adjust the width to your preference */
+margin: 10px; /* Add margin between columns if desired */
+white-space: normal; /* Allow text to wrap within the columns */
+word-wrap: break-word; 
+display: inline-block;
+
+position: relative;
+}
